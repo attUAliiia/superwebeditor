@@ -1,0 +1,16 @@
+/* hover style - green dashed border */
+.modo-edicion-hover {
+    outline: 2px dashed #2ecc71 !important;
+    background-color: rgba(46, 204, 113, 0.1) !important;
+    cursor: text !important;
+    transition: all 0.2s;
+}
+
+/* active editing style - red border */
+.modo-edicion-activo {
+    outline: 2px solid #e74c3c !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    min-width: 20px;
+    z-index: 10000;
+}
